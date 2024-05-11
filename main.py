@@ -9,7 +9,7 @@ if not os.path.exists('output'):
 if not os.path.exists('input'):
     logger.warn('Missing input folder.')
     os.makedirs('input/')    
-    logger.info('Created input folder, place STF mod in so that manifest.json is at input/manifest.json')
+    logger.info('Created input folder, place SAAT mod in it so that manifest.json is at input/manifest.json')
     logger.info('Press enter to continue.')
     input()
 

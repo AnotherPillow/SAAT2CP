@@ -4,4 +4,4 @@ class Logger(_Logger):
     def __init__(self, name: str):
         super().__init__(name)
 
-logger = Logger('___2CP')
+logger = Logger('SAAT2CP')
